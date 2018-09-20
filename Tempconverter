@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# program written by D 
+#Celsius to Fahrenheit converter
+echo "Enter the temperature in celsius "
+read c
+((f=c*( 9 / 5 ) + 32)) 
+echo  "$c celsius = $f Fahrenheit"   
+
