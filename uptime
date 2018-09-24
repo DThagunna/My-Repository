@@ -1,0 +1,9 @@
+#!/bin/bash
+#This display the current uptime of the machine 
+#By D
+
+
+echo " Current uptime is "
+            uptime
+# End of the program 
+
