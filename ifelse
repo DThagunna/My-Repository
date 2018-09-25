@@ -1,0 +1,16 @@
+#!/bin/bash
+#program written by D
+#Looks for file in the directory ,if finds display the contents 
+#if not, display message  "couldn't find directory or file  "message .
+
+echo  "Enter the file  name  "
+read file_name
+if [ f $file_nam ]
+then
+       echo " $file_name    file found: "
+       cat $file_name 
+else
+     echo  " $file_name ,such directory ,file doesn't exits"
+fi
+
+
